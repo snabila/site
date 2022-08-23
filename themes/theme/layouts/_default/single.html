@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div>
+  <div class="mb-6">
+    <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
+    <div class="text-slate-600">
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+      <div class="flex space-x-2">
+        {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+        $taxonomy $tag) }}
+        <a href="{{ .Permalink }}">{{ $tag }}</a>
+        {{ end }}{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="single">{{ .Content }}</div>
+</div>
+{{ end }}

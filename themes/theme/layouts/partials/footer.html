@@ -1,0 +1,13 @@
+<footer
+  class="text-slate-600 pt-10 text-sm flex justify-between align-middle items-center"
+>
+  <div>
+    <p>&copy; snabilah</p>
+    <p class="text-xs">made with <a href="https://gohugo.io/">Hugo</a></p>
+  </div>
+  <nav class="list-none flex space-x-3 text-lg">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}
+  </nav>
+</footer>

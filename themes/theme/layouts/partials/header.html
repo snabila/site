@@ -1,0 +1,8 @@
+<div class="flex justify-between align-middle items-center mb-10">
+  <a href="/" class="font-bold text-lg">{{ .Site.Title }}</a>
+  <nav class="list-none flex space-x-3 text-lg">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}
+  </nav>
+</div>

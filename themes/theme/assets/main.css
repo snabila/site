@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+  text-decoration: underline;
+}
+
+.single a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.single a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+body a,
+body button {
+  transition-property: color, background-color, border-color, fill, stroke,
+    -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.single p,
+.single ol,
+.single ul,
+.single pre {
+  margin-bottom: 1.25rem;
+}
+
+.single pre *::selection {
+  background-color: white;
+  color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.single p code {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.single ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+
+.single ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.single li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.single h2,
+.single h3,
+.single h4,
+.single h5,
+.single h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.single h2 {
+  font-size: 1.5rem;
+}
+
+.single h3 {
+  font-size: 1.3rem;
+}
+
+.single h4 {
+  font-size: 1.2rem;
+}
+
+.single h5 {
+  font-size: 1.1rem;
+}
+
+.single h6 {
+  font-size: 1rem;
+}
+
+.single pre {
+  border-radius: 0.25rem;
+  padding: 1rem;
+  overflow-x: auto;
+}

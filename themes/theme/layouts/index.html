@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="my-auto">
+  <!-- {{ range .Site.RegularPages }}
+  <article class="mt-6 first:mt-0">
+    <h3 class="text-xl font-semibold mb-1">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+    <div class="text-sm text-slate-500">
+      <p>{{ .Date.Format "January 2, 2006" }}</p>
+      {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+      <div class="flex space-x-2">
+        {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
+        $taxonomy $tag) }}
+        <a href="{{ .Permalink }}">{{ $tag }}</a>
+        {{ end }}{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }} -->
+
+  <div>
+    <h1 class="text-3xl font-semibold">bilah's brain dump</h1>
+    <p>just things i want to write about ✏️</p>
+  </div>
+</section>
+{{end}}
