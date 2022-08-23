@@ -1,7 +1,7 @@
 ---
 title: "Bilah's CV"
 date: 2022-08-21T18:07:36+07:00
-draft: true
+draft: false
 ---
 
 ## Skills

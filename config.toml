@@ -15,9 +15,9 @@ theme = "theme"
   url = '/posts'
   weight = 2
 [[menu.main]]
-  identifier = 'cv'
+  identifier = 'resume'
   name = 'cv'
-  url = '/cv'
+  url = '/resume'
   weight = 3
 
 [markup]
