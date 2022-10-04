@@ -10,11 +10,6 @@ theme = "theme"
   url = '/'
   weight = 1
 [[menu.main]]
-  identifier = 'posts'
-  name = 'posts'
-  url = '/posts'
-  weight = 2
-[[menu.main]]
   identifier = 'cv'
   name = 'cv'
   url = '/cv'

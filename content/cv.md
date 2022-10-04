@@ -4,6 +4,12 @@ date: 2022-08-21T18:07:36+07:00
 draft: false
 ---
 
+## Experience
+
+### Lembaga Ilmu Pengetahuan Indonesia (2021)
+
+I was a research intern from August 2021 to December 2021. With a team of three, we made a prototype of lower-limb exoskeleton using ESP8266, motors, and popsicle sticks. It is connected to an android application that was made with MIT App Inventor to control the on/off state of the exoskeleton, and the state was saved into a Firebase database.
+
 ## Skills
 
 - **Linux** \
@@ -28,6 +34,7 @@ draft: false
 ## Certifications
 
 - Cloud Practitioner Essentials (Learn the Basics of AWS Cloud) from [Dicoding](https://www.dicoding.com/certificates/N9ZODLL9YPG5).
+- Hands-on Linux: Self-Hosted WordPress for Linux Beginners from [Udemy](https://www.udemy.com/certificate/UC-08026423-b5b2-4bd8-add0-7874d883f6a1/)
 
 Others that have expired:
 
